@@ -1,0 +1,38 @@
+{
+    "name": "@aiteq/grunt-slack",
+    "version": "1.0.0-beta.1",
+    "description": "Grunt plugin to push message to a Slack channel",
+    "scripts": {
+        "compile": "grunt compile",
+        "prepublishOnly": "npm run compile",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "grunt",
+        "grunt plugin",
+        "grunt task",
+        "slack",
+        "notifier"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aiteq/grunt-slack.git"
+    },
+    "bugs": {
+        "url": "https://github.com/aiteq/grunt-slack/issues"
+    },
+    "homepage": "https://github.com/aiteq/grunt-slack#readme",
+    "author": "Aiteq Reloaded, s.r.o.",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/grunt": "^0.4.22",
+        "@types/node": "^8.0.25",
+        "grunt": "^1.0.1",
+        "grunt-ts": "^6.0.0-beta.16",
+        "jest": "^20.0.4",
+        "typescript": "^2.4.2"
+    },
+    "dependencies": {
+        "axios": "^0.16.2"
+    }
+}
